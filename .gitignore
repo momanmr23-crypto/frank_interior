@@ -1,0 +1,8 @@
+.claude/
+.jury/
+_ascii/
+_smoke.mjs
+figma-lpas-plugin/
+node_modules/
+.DS_Thumbs
+*.log

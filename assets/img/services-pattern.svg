@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" preserveAspectRatio="none">
+  <defs>
+    <pattern id="hatchClay" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="3.2" height="15" fill="#b8654a"/>
+    </pattern>
+    <pattern id="hatchCream" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="3.2" height="15" fill="#f3efe9"/>
+    </pattern>
+    <pattern id="hatchInk" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="3.2" height="15" fill="#1b1815"/>
+    </pattern>
+  </defs>
+
+  <!-- cream base -->
+  <rect width="1600" height="1600" fill="#f3efe9"/>
+
+  <!-- big angular slabs -->
+  <polygon points="0,430 1600,170 1600,830 0,1090" fill="#5c6b5a"/>
+  <polygon points="520,0 900,0 740,1600 360,1600" fill="#b8654a"/>
+  <polygon points="1150,0 1600,0 1600,540" fill="#1b1815"/>
+  <polygon points="0,1220 600,1600 0,1600" fill="#1b1815"/>
+
+  <!-- cream diagonal band splitting the composition -->
+  <polygon points="0,940 1600,660 1600,820 0,1100" fill="#fbf9f6"/>
+
+  <!-- corner accents -->
+  <polygon points="0,0 340,0 0,280" fill="#b8654a"/>
+  <polygon points="1600,860 1600,1180 1300,1180" fill="#5c6b5a"/>
+
+  <!-- crosshatch clusters -->
+  <rect x="0" y="0" width="150" height="120" fill="url(#hatchInk)"/>
+  <rect x="1080" y="400" width="420" height="330" fill="url(#hatchCream)"/>
+  <rect x="440" y="1180" width="300" height="300" fill="url(#hatchInk)"/>
+  <rect x="1400" y="40" width="170" height="240" fill="url(#hatchClay)"/>
+  <rect x="0" y="1400" width="240" height="180" fill="url(#hatchCream)"/>
+  <rect x="980" y="1260" width="440" height="280" fill="url(#hatchClay)"/>
+</svg>
